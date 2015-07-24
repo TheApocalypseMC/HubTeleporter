@@ -1,0 +1,15 @@
+main: com.theapocalypsemc.hubteleporter.HubTeleporter
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+website: http://theapocalypsemc.com
+author: SirFaizdat
+commands:
+  htreload:
+    description: Reload HubTeleporter.
+    permission: hubteleporter.reload
+    aliases: [htr, hubteleporterreload]
+permissions:
+  hubteleporter.reload:
+    description: Permission to use /htreload
+    default: op
